@@ -2,7 +2,7 @@
 :root {
     --orange-color: hsl(29, 100%, 54%);
     --orange-color-hover: hsl(29, 91%, 50%);
-    --black-font-color: #1f1f1f;
+    --black-font-color: hsl(0, 0%, 12%);
     --nav-link-passive: hsl(0, 0%, 55%);
     --nav-link-active: hsl(29, 100%, 50%);
     --donker-blue: hsl(222, 82%, 9%);

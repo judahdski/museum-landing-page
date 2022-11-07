@@ -21,6 +21,10 @@
     margin: 0.5rem 0 1.5rem;
 }
 
+.detail__location span {
+    color: var(--orange-color);
+}
+
 .detail__list {
     display: flex;
     flex-direction: column;
