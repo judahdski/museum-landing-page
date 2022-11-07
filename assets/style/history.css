@@ -1,0 +1,66 @@
+@import url('global.css');
+@import url('partials/header.css');
+@import url('partials/footer.css');
+@import url('partials/jumbotron.css');
+
+/* dashboard */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+    background: #f4f6f8;
+}
+
+h3.dashboard__title {
+    margin-bottom: 3rem;
+}
+
+.dashboard__articles {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.dashboard__articles .article__card {
+    width: 300px;
+    height: 420px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.article__card h4 {
+    font-size: 1.2em;
+    padding: 1rem 0.5rem;
+}
+
+.article__card p {
+    padding: 0.5rem 0.75rem;
+}
+
+.article__card a {
+    position: absolute;
+    bottom: 1rem;
+    color: var(--orange-color);
+}
+
+.article__card a:hover {
+    font-weight: 600;
+    color: var(--orange-color-hover);
+}
+
+.article__card img {
+    width: 100%;
+    aspect-ratio: 3/2;
+}
+
+@media screen and (min-width: 992px) {
+    .dashboard__articles {
+        gap: 3rem;
+    }
+}

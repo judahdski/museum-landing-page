@@ -1,0 +1,67 @@
+@import url('global.css');
+@import url('partials/header.css');
+@import url('partials/footer.css');
+@import url('partials/jumbotron.css');
+
+/* collection */
+.collection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+    background: #f4f6f8;
+}
+
+h3.dashboard__title {
+    margin-bottom: 3rem;
+}
+
+.collection_list {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.collection_list .collection_card {
+    width: 300px;
+    height: 420px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.collection_card h4 {
+    font-size: 1.2em;
+    padding: 1rem 1.5rem 0.5rem;
+}
+
+.collection_card p {
+    padding: 0.5rem 0.75rem;
+    color: var(--nav-link-passive);
+}
+
+.collection_card a {
+    position: absolute;
+    bottom: 1rem;
+    color: var(--orange-color);
+}
+
+.collection_card a:hover {
+    font-weight: 600;
+    color: var(--orange-color-hover);
+}
+
+.collection_card img {
+    width: 100%;
+    aspect-ratio: 3/2;
+}
+
+@media screen and (min-width: 992px) {
+    .collection_list {
+        gap: 3rem;
+    }
+}

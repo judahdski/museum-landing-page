@@ -1,0 +1,43 @@
+/* variable */
+:root {
+    --orange-color: hsl(29, 100%, 54%);
+    --orange-color-hover: hsl(29, 91%, 50%);
+    --black-font-color: #1f1f1f;
+    --nav-link-passive: hsl(0, 0%, 55%);
+    --nav-link-active: hsl(29, 100%, 50%);
+    --donker-blue: hsl(222, 82%, 9%);
+}
+
+/* style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* base */
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+a {
+    color: var(--black-font-color);
+    text-decoration: none;
+}
+
+.orange__font {
+    color: var(--orange-color);
+}
+
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+/* main */
+main {
+    background: white;
+}

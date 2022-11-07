@@ -1,0 +1,35 @@
+/* jumbotron */
+.hero__jumbotron {
+    padding: 20vh 16vw;
+    display: grid;
+    background-color: rgba(0, 0, 0, .24);
+    background-image: url('../../img/gedung3.webp');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero__jumbotron::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .32);
+}
+
+.hero__title {
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    z-index: 11;
+}
+
+@media screen and (min-width: 768px) {
+    .hero__title {
+        font-size: 2.5em;
+    }
+}

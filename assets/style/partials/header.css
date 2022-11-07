@@ -1,0 +1,58 @@
+/* header */
+header {
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 1.5rem;
+    height: 75px;
+}
+
+a.logo {
+    display: inline-block;
+}
+
+.desktop__version {
+    display: none;
+}
+
+.mobile__version i {
+    font-size: 1.75em;
+    color: var(--orange-color);
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        padding: 0 0 0 2rem;
+        height: 100px;
+    }
+    .mobile__version {
+        display: none;
+    }
+
+    .desktop__version {
+        display: flex;
+        height: 100%;
+    }
+
+    a.nav__item {
+        display: inline-block;
+        padding: 1rem 0.75rem;
+    }
+
+    .reservation__btn {
+        margin-left: 0.5rem;
+        display: inline-block;
+        height: 100%;
+        padding: 0.5rem 3rem;
+        color: white;
+        font-size: 1em;
+        letter-spacing: 1px;
+        border-radius: 0;
+        border: none;
+        background-color: var(--orange-color);
+        cursor: pointer;
+    }
+
+    .reservation__btn:hover {
+        background: var(--orange-color-hover);
+    }
+}
+

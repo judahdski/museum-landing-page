@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="assets/style/home.css">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/d674aa5530.js" crossorigin="anonymous"></script>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="row">
+        <a href="#" class="logo">
+            <img src="assets/img/logo.webp" alt="Logo Museum Pos">
+        </a>
+        <div class="desktop__version row">
+            <nav class="nav__list">
+                <ul class="nav__links">
+                    <a href="#" class="nav__item">BERANDA</a>
+                    <a href="#" class="nav__item">PROFIL</a>
+                    <a href="#" class="nav__item">SEJARAH</a>
+                    <a href="#" class="nav__item">RUANGAN</a>
+                    <a href="#" class="nav__item">KONTAK</a>
+                </ul>
+            </nav>
+            <button class="reservation__btn">RESERVASI</button>
+        </div>
+        <div class="mobile__version">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <main>
+        <!-- "Tampilan" paling atas -->
+        <section class="hero__jumbotron">
+            <h1 class="hero__title">museum pos indonesia</h1>
+            <button class="hero__detail">pelajari selengkapnya</button>
+        </section>
+
+        <!-- Deskripsi singkat ttg Telkom Ind..  Ehhh lupa, maksudnya Museum Pos -->
+        <section class="about">
+            <div class="col">
+                <h2 class="about__title">SELAMAT DATANG DI WEBSITE <span class="orange__font">MUSEUM POS INDONESIA</span></h2>
+                <div class="about__description">
+                    <p>
+                        Museum Pos Indonesia sebagai salah satu tujuan wisata yang menarik dan mampu memberikan
+                        kontribusi positif bagi peningkatan citra Perusahaan.<br>Misi kami adalah untuk :
+                    </p>
+                    <div class="row">
+                        <div class="card__desc">
+                            <i class="fa-solid fa-circle orange__font"></i>
+                            <p><span class="orange__font">Mewujudkan</span> Museum Pos Indonesia yang mampu berperan
+                                sebagai pusat informasi
+                                edukasi, rekreasi, dan mampu mendukung pengembangan sosio-kultur Perusahaan.
+                            </p>
+                        </div>
+                        <div class="card__desc">
+                            <i class="fa-solid fa-circle orange__font"></i>
+                            <p><span class="orange__font">Menciptakan</span> kerjasama yang harmonis dengan senantiasa
+                                mengikuti dinamika
+                                perkembangan masyarakat guna memberikan nilai-nilai yang positif bagi masyarakat luas.
+                            </p>
+                        </div>
+                        <div class="card__desc">
+                            <i class="fa-solid fa-circle orange__font"></i>
+                            <p><span class="orange__font">Mengelola</span> Museum secara profesional, didukung sistem
+                                tata kelola yang baik
+                                dan teknologi informasi yang memadai.</p>
+                        </div>
+                    </div>
+                    <p>
+                        Museum Pos Indonesia telah hadir sejak masa Hindia Belanda dengan nama Museum PTT (Pos Telegrap
+                        dan
+                        Telepon) ,tepatnya pada tahun 1931 terletak dibagian sayap kanan bawah Gedung Kantor Pusat PTT
+                        Jalan
+                        Cilaki No.73 Bandung 40115.
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="assets/img/museum-gate.webp" alt="Tentang Museum Pos">
+            </div>
+        </section>
+
+        <!-- Dashboard ini -->
+        <section class="dashboard">
+            <h3 class="dashboard__title">DASHBOARD</h3>
+            <div class="dashboard__articles row">
+
+                <!-- Ini nanti yang bakalan di loop kalo misalkan datanya ngambil dari database. -->
+
+                <div class="article__card">
+                    <img src="assets/img/kerajaan.webp" alt="SEJARAH PERPOSAN">
+                    <h4 class="article__title">SEJARAH PERPOSAN</h4>
+                    <p class="article__description">Cari tahu tentang Sejarah Perposan di indonesia</p>
+                    <a href="#" class="article__detail">BACA LEBIH LANJUT</a>
+                </div>
+                <div class="article__card">
+                    <img src="assets/img/filateli.webp" alt="RUANG KOLEKSI">
+                    <h4 class="article__title">RUANG KOLEKSI</h4>
+                    <p class="article__description">Jelajahi setiap ruang koleksi yang ada di Museum</p>
+                    <a href="#" class="article__detail">BACA LEBIH LANJUT</a>
+                </div>
+                <div class="article__card">
+                    <img src="assets/img/prisma.webp" alt="PRISMA">
+                    <h4 class="article__title">PRISMA</h4>
+                    <p class="article__description">Abadikan momen terindahmu dalam Prangko Identitas Milik Anda</p>
+                    <a href="#" class="article__detail">BACA LEBIH LANJUT</a>
+                </div>
+                <div class="article__card">
+                    <img src="assets/img/kegiatan.webp" alt="HIGHLIGHT KUNJUNGAN MUSEUM">
+                    <h4 class="article__title">HIGHLIGHT KUNJUNGAN MUSEUM</h4>
+                    <p class="article__description">Highlight kunjungan dan kegiatan museum</p>
+                    <a href="#" class="article__detail">BACA LEBIH LANJUT</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reservasi -->
+        <div class="reservation">
+            <h3>RESERVASI <span class="orange__font">KUNJUNGAN</span></h3>
+            <p>Sekarang anda dapat reservasi kunjungan / rombongan langsung melalui web, cukup pilih jenis rombongan
+                yang ada</p>
+            <button class="reservation__btn">reservasi</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="col">
+            <!-- left side -->
+            <section class="history">
+                <h2 class="history__title">MUSEUM POS INDONESIA</h2>
+                <p class="history__description">Sejalan dengan perkembangan perusahaan pos dimana terhitung tanggal 20
+                    juni 1995 nama dan status perusahaan berubah dari Perusahaan Umum Pos dan Giro menjadi PT. Pos
+                    Indonesia (persero). maka terjadi pula perubahan nama museum ini dari Museum Pos dan Giro menjadi
+                    MUSEUM POS INDONESIA sampai sekarang.</p>
+            </section>
+            <section class="contact">
+                <div class="contact__location">
+                    <p><i class="fa-solid fa-location-dot"></i> Jalan Cilaki No.73 Bandung 40115.</p>
+                </div>
+                <div class="contact__phone">
+                    <p><i class="fa-solid fa-phone"></i> 0892383488</p>
+                </div>
+                <div class="contact__email">
+                    <p><i class="fa-solid fa-envelope"></i> museumemail@email.com</p>
+                </div>
+            </section>
+        </div>
+        <div class="col">
+            <!-- right side -->
+            <h4 class="quick__link-title">quick links</h4>
+            <nav class="quick__links">
+                <a href="#"><i class="fa-solid fa-chevron-right"></i> Profil</a>
+                <a href="#"><i class="fa-solid fa-chevron-right"></i> Sejarah</a>
+                <a href="#"><i class="fa-solid fa-chevron-right"></i> Ruangan</a>
+                <a href="#"><i class="fa-solid fa-chevron-right"></i> Kontak</a>
+            </nav>
+            <section class="social__media row">
+                <div class="tiktok">
+                    <i class="fa-brands fa-tiktok"></i>
+                </div>
+                <div class="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="youtube">
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>
