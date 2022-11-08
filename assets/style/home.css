@@ -89,13 +89,16 @@
     text-align: center;
 }
 
-.about__description p {
-    margin: 1rem;
-}
-
-.about__description .row {
+.benefit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.about__description p {
+    margin: 1rem;
 }
 
 .card__desc {
@@ -180,9 +183,12 @@ h3.dashboard__title {
 }
 
 .dashboard__articles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     gap: 2rem;
 }
 

@@ -22,11 +22,11 @@
 </head>
 
 <body>
-    <header class="row">
+    <header>
         <a href="#" class="logo">
             <img src="assets/img/logo.webp" alt="Logo Museum Pos">
         </a>
-        <div class="desktop__version row">
+        <div class="desktop__version">
             <nav class="nav__list">
                 <ul class="nav__links">
                     <a href="#" class="nav__item">BERANDA</a>
@@ -39,7 +39,20 @@
             <button class="reservation__btn">RESERVASI</button>
         </div>
         <div class="mobile__version">
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" id="menu-toggle"></i>
+            <div class="navigation">
+                <i class="fa-solid fa-xmark" id="close-toggle"></i>
+                <nav class="nav__list-mobile">
+                    <ul class="nav__links-mobile">
+                        <a href="#" class="nav__item">BERANDA</a>
+                        <a href="#" class="nav__item">PROFIL</a>
+                        <a href="#" class="nav__item">SEJARAH</a>
+                        <a href="#" class="nav__item">RUANGAN</a>
+                        <a href="#" class="nav__item">KONTAK</a>
+                    </ul>
+                </nav>
+                <button class="reservation__btn-mobile">RESERVASI</button>
+            </div>
         </div>
     </header>
 
@@ -94,7 +107,7 @@
                 <a href="#"><i class="fa-solid fa-chevron-right"></i> Ruangan</a>
                 <a href="#"><i class="fa-solid fa-chevron-right"></i> Kontak</a>
             </nav>
-            <section class="social__media row">
+            <section class="social__media">
                 <div class="tiktok">
                     <i class="fa-brands fa-tiktok"></i>
                 </div>

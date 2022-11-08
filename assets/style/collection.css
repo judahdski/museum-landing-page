@@ -17,6 +17,8 @@ h3.dashboard__title {
 }
 
 .collection_list {
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;

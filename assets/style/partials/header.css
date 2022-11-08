@@ -1,4 +1,7 @@
 header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem 1rem 1.5rem;
     height: 75px;
@@ -22,7 +25,9 @@ a.logo {
     flex-direction: column;
     position: absolute;
     background: white;
-    top: -100%;left: 0;right: 0;
+    top: -100%;
+    left: 0;
+    right: 0;
     z-index: 12;
     transition: 0.3s;
 }
@@ -72,6 +77,8 @@ a.logo {
 
     .desktop__version {
         display: flex;
+        flex-direction: row;
+        align-items: center;
         height: 100%;
     }
 

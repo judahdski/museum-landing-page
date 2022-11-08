@@ -16,13 +16,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/* base */
-.row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 a {
     color: var(--black-font-color);
     text-decoration: none;
@@ -37,7 +30,6 @@ body {
     overflow-x: hidden;
 }
 
-/* main */
 main {
     background: white;
 }
